@@ -29,6 +29,7 @@ If your day involves answering the question *"what's the state of this vendor"* 
 | 9 | [AI-Assistant Operating Discipline](chapters/09-ai-assistant-discipline.md) | Reversible vs irreversible; verify after mutation; idle = work |
 | 10 | [Voice and Tone](chapters/10-voice-and-tone.md) | Direct, no emdashes, sign "Thanks, [name]", attach when referenced |
 | 11 | [Failure Mode Catalog](chapters/11-failure-mode-catalog.md) | The pain points that justify the rules |
+| 12 | [30-Day Adoption Guide](chapters/12-30-day-adoption-guide.md) | Week-by-week implementation plan for a new shop |
 
 ## How to use this
 
