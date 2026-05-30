@@ -4,16 +4,16 @@
 
 Returns in a per-lead / per-impression / per-transaction model are messy because every counterparty wants them done their own way. Some accept a Google Sheet with a row per returned lead. Some require entries in their portal. Some take an email and trust you. Some refuse to acknowledge returns at all and apply a blanket haircut to the invoice.
 
-The structural fix is a **per-counterparty Return Type** field — a single lookup on the vendor record that tells you which protocol to run.
+The structural fix is a **per-counterparty Return Type** field, a single lookup on the vendor record that tells you which protocol to run.
 
 Common types:
 
-- **Google Sheet / Worksheet** — you compile a per-lead matrix, send to your accounting team, they apply credits
-- **Vendor portal** — log into their tool, mark each lead returned, hope it syncs
-- **Email-to-accounting** — you email their AP with the disputed leads
-- **Disposition ping-back** — automated; your system pings their API with the dispo, no human in the loop
-- **Invoice haircut** — they apply a fixed percentage reduction; you reconcile but don't request line-item credits
-- **No returns** — you eat the bad leads; built into the price
+- **Google Sheet / Worksheet**: you compile a per-lead matrix, send to your accounting team, they apply credits
+- **Vendor portal**: log into their tool, mark each lead returned, hope it syncs
+- **Email-to-accounting**: you email their AP with the disputed leads
+- **Disposition ping-back**: automated; your system pings their API with the dispo, no human in the loop
+- **Invoice haircut**: they apply a fixed percentage reduction; you reconcile but don't request line-item credits
+- **No returns**: you eat the bad leads; built into the price
 
 ## The Returns Worksheet pattern (Google Sheet flavor)
 
@@ -36,14 +36,14 @@ When a counterparty uses the worksheet flow:
 
 Every accounting invoice you encounter gets a tracked task. Subject + invoice number + vendor in the task name; payment link in the Notes. Status moves through:
 
-- **Waiting on Client** — invoice sent, payment due
-- **Waiting on Client (partial)** — partial payment received, balance outstanding
-- **Done** — paid in full
-- **Abandoned** — uncollectible
+- **Waiting on Client**: invoice sent, payment due
+- **Waiting on Client (partial)**: partial payment received, balance outstanding
+- **Done**: paid in full
+- **Abandoned**: uncollectible
 
 Partial-paid is not Deferred. Partial-paid is active dunning.
 
-Auto-invoices snooze until *day-after-due*. When they resurface, that's the payment-chase trigger, not a "review" — start the chase that day.
+Auto-invoices snooze until *day-after-due*. When they resurface, that's the payment-chase trigger, not a "review". Start the chase that day.
 
 ## Small-balance threshold
 
@@ -51,7 +51,7 @@ Counterparties with a minimum payment threshold (we'll only invoice once total c
 
 ## Reconcile before paying
 
-Inbound invoices (someone billing *you*) get the inverse treatment: pull the reporting from your platform for the invoice timeframe, sum what you owe, match totals to the invoice line. Don't pay first and reconcile later — once the money's gone, the leverage to fix a billing error evaporates.
+Inbound invoices (someone billing *you*) get the inverse treatment: pull the reporting from your platform for the invoice timeframe, sum what you owe, match totals to the invoice line. Don't pay first and reconcile later; once the money's gone, the leverage to fix a billing error evaporates.
 
 ## What to write down
 

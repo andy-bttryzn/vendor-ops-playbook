@@ -2,14 +2,14 @@
 
 A week-by-week implementation plan for adopting this playbook in a new shop.
 
-This isn't aspirational. Every step has a concrete artifact you should have at the end of it. If you finish a week without the artifact, that week didn't happen — re-do it before moving on.
+This isn't aspirational. Every step has a concrete artifact you should have at the end of it. If you finish a week without the artifact, that week didn't happen. Re-do it before moving on.
 
 ## Before you start
 
 **You should already have:**
 - A list of every active vendor relationship (rough; you'll clean it as you go)
 - Read/write access to your email, your CRM or vendor store (monday/Notion/Airtable/spreadsheet), your contract store (Box/Drive/SharePoint), and your task tracker
-- Authority to make process changes in your own work — this playbook assumes you can adopt new rules without checking with anyone
+- Authority to make process changes in your own work; this playbook assumes you can adopt new rules without checking with anyone
 
 **You should NOT need:**
 - Any new SaaS purchase
@@ -78,7 +78,7 @@ A working vendor-ops system that:
 
 You did not buy new SaaS. You did not run a process-change project. You did not block on anyone else's adoption.
 
-The next layer — wiring an AI assistant into this, automating the repetitive triage, expanding to a team — that's [chapter 9](09-ai-assistant-discipline.md) territory, and it's cleaner to add after day 30, not before.
+The next layer (wiring an AI assistant into this, automating the repetitive triage, expanding to a team) is [chapter 9](09-ai-assistant-discipline.md) territory, and it's cleaner to add after day 30, not before.
 
 ## When this fails
 

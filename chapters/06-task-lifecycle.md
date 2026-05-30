@@ -14,12 +14,12 @@ Anything that's *not* one of these three is too small for a task. A task list th
 
 Pick a small set and hold the line:
 
-- **Waiting on us / Waiting on internal** — the next move is ours
-- **Waiting on Client / Waiting on Vendor / Waiting on Counterpart** — we've asked, they owe
-- **Waiting on Legal / Accounting / Platform-X** — third-party hold; specific enough that you know who to chase
-- **Deferred** — decided not to do now, no chase
-- **Done** — completed
-- **Abandoned** — no longer relevant; superseded; vendor died
+- **Waiting on us / Waiting on internal**: the next move is ours
+- **Waiting on Client / Waiting on Vendor / Waiting on Counterpart**: we've asked, they owe
+- **Waiting on Legal / Accounting / Platform-X**: third-party hold; specific enough that you know who to chase
+- **Deferred**: decided not to do now, no chase
+- **Done**: completed
+- **Abandoned**: no longer relevant; superseded; vendor died
 
 The discipline: *Waiting on Client* requires that we've actually told the client about the task. If we're prepping the ask but haven't sent it, that's *Waiting on us*. The status reflects who owes the next move at this moment, not who's eventually responsible.
 
@@ -50,7 +50,7 @@ When a vendor blocker matches a standard onboarding-template task, **move** the 
 
 When 5+ vendors share the same blocker (e.g. *"awaiting platform feature X"*), collapse them into a single task with linked-vendor relations. One row, N linked vendors. When the blocker clears, you close one task and N vendors become unblocked.
 
-The threshold isn't magic — pick what fits your scale. The principle is *one blocker = one tracking row*, not *one blocker × N vendors = N rows*.
+The threshold isn't magic; pick what fits your scale. The principle is *one blocker = one tracking row*, not *one blocker × N vendors = N rows*.
 
 ## Notes are forward-looking
 
@@ -58,7 +58,7 @@ Lead the Notes with the *next action*. Historical context goes in a `[Previous:]
 
 ## Link emails to tasks
 
-Every task spawned from an email carries the thread URL in the Notes. This is the most-violated rule in this chapter. The urge is *"I'll remember which email"* — you won't, and tomorrow you'll spend ten minutes finding it again.
+Every task spawned from an email carries the thread URL in the Notes. This is the most-violated rule in this chapter. The urge is *"I'll remember which email"*; you won't, and tomorrow you'll spend ten minutes finding it again.
 
 ## Don't assign
 

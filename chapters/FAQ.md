@@ -6,7 +6,7 @@ Questions a prospective adopter (or consulting client) tends to ask before commi
 
 Three answers, in increasing depth.
 
-**Surface:** vendor management SaaS solves vendor *procurement*, not vendor *operations*. Procurement is upstream — vetting, onboarding, contracting. Operations is what happens after the contract is signed and the work has to actually run. The SaaS market hasn't filled that gap yet because it's hard to template.
+**Surface:** vendor management SaaS solves vendor *procurement*, not vendor *operations*. Procurement is upstream: vetting, onboarding, contracting. Operations is what happens after the contract is signed and the work has to actually run. The SaaS market hasn't filled that gap yet because it's hard to template.
 
 **Working:** even the SaaS that does cover ops (Vendr, Tropic, Zip, etc.) is built for an IT / procurement org with hundreds of vendors and a finance lens. That's a different shape than a lead-gen or channel-partner org with fifty vendors and a revenue lens. Different unit of work, different decisions per week.
 

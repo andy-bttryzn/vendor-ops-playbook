@@ -11,7 +11,7 @@ This is the single most-violated rule in the playbook and the one whose violatio
 ### Body content
 
 - **Em-dashes.** LLM-generated drafts leak `—` constantly. If your house style doesn't use them, block at staging time. Forces a rewrite, not a "send anyway" override.
-- **Forbidden closings.** "Best," "Best regards," "Sincerely," "Cheers," "Regards," — pick what you don't write and reject those at the gate. The point isn't that they're wrong; the point is that *your* style is your signature, and inconsistency is noisier than the reader notices.
+- **Forbidden closings.** "Best," "Best regards," "Sincerely," "Cheers," "Regards." Pick what you don't write and reject those at the gate. The point isn't that they're wrong; the point is that *your* style is your signature, and inconsistency is noisier than the reader notices.
 - **Required closing pair.** If your style is `Thanks,\n[Name]`, the validator enforces both lines present and in that order. Catches the case where you (or the AI) generated a body that just ends.
 - **Empty subject.** Never send an email with a blank subject. Easy to validate, impossible to recover from.
 - **Mojibake / encoded-word leakage.** `â€™` and `=?UTF-8?B?` in a subject line means something double-encoded upstream. Catch at staging time.
@@ -19,9 +19,9 @@ This is the single most-violated rule in the playbook and the one whose violatio
 ### Recipients and routing
 
 - **Required BCC on legal-flavored threads.** When the body or subject contains contract / NDA / MSA / amendment / e-sign keywords, require your in-house counsel BCC. Configurable; defaults off; opt in by setting an env var.
-- **Sister-domain handling.** If your shop has multiple internal domains (parent, sister companies, dev team), routing should default to *coworkers on Cc, vendor on To* — not reply-all-flatten.
+- **Sister-domain handling.** If your shop has multiple internal domains (parent, sister companies, dev team), routing should default to *coworkers on Cc, vendor on To*, not reply-all-flatten.
 - **Prior outbound check.** Before staging a fresh-thread send to anyone, glance at recent sent mail to the same recipient. If you sent them something different in the last 48 hours on another thread, surface it. Catches the case where two stale self-notes generated two parallel emails.
-- **Ownership pre-flight.** On reply, if a coworker has more outbound on this thread than you, throw — the thread is theirs, you're parallel-drafting. Override only with explicit reason (OOO, explicit handoff, vendor asked for you).
+- **Ownership pre-flight.** On reply, if a coworker has more outbound on this thread than you, throw; the thread is theirs, you're parallel-drafting. Override only with explicit reason (OOO, explicit handoff, vendor asked for you).
 
 ### Render quality
 
@@ -42,7 +42,7 @@ The three-step pattern:
 2. **Lint:** post-create read-back validation; delete on failure
 3. **Send:** explicit human approval gate; the same word every time
 
-"Send it" means **one** specific email — the one in the immediately prior message. Not *"start sending stuff."* Not *"work through the queue."* One.
+"Send it" means **one** specific email: the one in the immediately prior message. Not *"start sending stuff."* Not *"work through the queue."* One.
 
 The AI assistant doing the drafting does not get to interpret "looks good" or "lgtm" as send authority. The explicit word is the gate.
 

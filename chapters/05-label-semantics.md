@@ -6,10 +6,10 @@ Labels are not folders. Labels are independent *dimensions* of a thread's state.
 
 The four core dimensions:
 
-1. **INBOX** — is this thread visible in your inbox right now?
-2. **00.received** — is there outstanding substance on this thread? (i.e. not fully closed out)
-3. **01.priority** — is this thread important / active enough to surface above background?
-4. **02.waiting/{who}** — who owes the next move?
+1. **INBOX**: is this thread visible in your inbox right now?
+2. **00.received**: is there outstanding substance on this thread? (i.e. not fully closed out)
+3. **01.priority**: is this thread important / active enough to surface above background?
+4. **02.waiting/{who}**: who owes the next move?
 
 Each is independent. A thread can be 00.received + 01.priority + 02.waiting/customer (you're chasing them on something important). Or 00.received only (you remember it exists but it's not active). Or no labels at all (fully closed).
 

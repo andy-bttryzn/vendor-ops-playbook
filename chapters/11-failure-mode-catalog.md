@@ -14,7 +14,7 @@ A non-exhaustive list of the pain points that justify the rules in the rest of t
 
 ## Drafts and sends
 
-**LLM-generated em-dashes are the dominant AI tell.** They will leak into every draft an AI assistant writes unless explicitly blocked at the validation gate. Don't trust "I'll just remember to not use them" — block at staging.
+**LLM-generated em-dashes are the dominant AI tell.** They will leak into every draft an AI assistant writes unless explicitly blocked at the validation gate. Don't trust "I'll just remember to not use them". Block at staging.
 
 **Prior outbound on a different thread.** A vendor with two parallel threads (one technical, one billing) gets two emails from you in 11 minutes, both addressing the same overdue question but worded differently. The vendor reads both, notices the contradiction, loses confidence. Prior-outbound check at staging catches this.
 
@@ -32,7 +32,7 @@ A non-exhaustive list of the pain points that justify the rules in the rest of t
 
 **Status drift.** *Waiting on Client* on a task we've never told the client about is a lie that compounds. The recurring audit *"who have we asked recently?"* catches this; without it the list rots.
 
-**Abandoned tasks pile up.** A vendor re-engages, you flip the task to active without checking — and create a new one because the old Abandoned status got filtered out of the dedup query. Now you have two tasks for the same thing, different statuses, different histories. The fix: reuse Abandoned tasks on re-engagement; flip status and prepend new context.
+**Abandoned tasks pile up.** A vendor re-engages, you flip the task to active without checking, and create a new one because the old Abandoned status got filtered out of the dedup query. Now you have two tasks for the same thing, different statuses, different histories. The fix: reuse Abandoned tasks on re-engagement; flip status and prepend new context.
 
 ## Contracts
 
@@ -52,7 +52,7 @@ A non-exhaustive list of the pain points that justify the rules in the rest of t
 
 **"Likely / probably" when verification is cheap.** An AI saying *"the daemon is probably running"* when the daemon's status is one tool call away is shipping uncertainty it should have resolved. Verify when cheap.
 
-**Empty result mistaken for absence.** A query that returns zero rows is a claim, not a fact — it could be a genuinely-empty result, or a malformed query, or a stale index. When you expected non-zero, suspect the query before reporting *"none exist."*
+**Empty result mistaken for absence.** A query that returns zero rows is a claim, not a fact; it could be a genuinely-empty result, or a malformed query, or a stale index. When you expected non-zero, suspect the query before reporting *"none exist."*
 
 **Same-turn deliverable that's actually backgrounded.** An AI that says *"I'll check on that"* and then ends the turn without checking has lost the work. Same-turn deliverables run inline, never backgrounded.
 

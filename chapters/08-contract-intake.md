@@ -2,7 +2,7 @@
 
 ## Where signed contracts live
 
-One canonical store. Pick one — Box, Drive, SharePoint, whatever your shop uses — and treat it as the source of truth for *signed* paper.
+One canonical store. Pick one (Box, Drive, SharePoint, whatever your shop uses) and treat it as the source of truth for *signed* paper.
 
 The naming convention matters less than the discipline of *every signed contract gets a file there with a predictable name*. We use `{Vendor Name} {Doc Type} {YYMMDD}.pdf`. You can pick differently; just pick.
 
@@ -22,7 +22,7 @@ A separate tracker for *paper in flight*. We use an Airtable base; you can use w
 
 **Status is left null on intake.** Your legal team owns the Status field. If you set it on creation, you're stepping on their workflow.
 
-**Required at intake:** Doc Type, Contract Owner, Whose Paper, Vertical, Sister Co, Notes, Attachment. Missing any of these means the legal team has to ping you for context — bottleneck.
+**Required at intake:** Doc Type, Contract Owner, Whose Paper, Vertical, Sister Co, Notes, Attachment. Missing any of these means the legal team has to ping you for context. Bottleneck.
 
 ## The forwarding rule
 
@@ -30,7 +30,7 @@ Every contract forwarded to your legal team **also** gets a row in the tracker w
 
 ## Don't update tracker when paper is signed
 
-When a contract that was in the tracker gets signed, the right move is **email legal** with the signed file + link to the Box/Drive location. Do not flip the tracker entry to "Signed" yourself — legal owns that transition, and updating it yourself can mask a downstream sync gap.
+When a contract that was in the tracker gets signed, the right move is **email legal** with the signed file + link to the Box/Drive location. Do not flip the tracker entry to "Signed" yourself; legal owns that transition, and updating it yourself can mask a downstream sync gap.
 
 If you notice the tracker shows a contract in-flight but you know it's signed and in Box, that's a *drift signal* to surface to legal, not a thing to silently fix.
 
@@ -42,7 +42,7 @@ If an email references a specific contract by name (*"per our MSA, section 4.2..
 
 Choose your e-sign tool, document it in the playbook for your shop, and use the same name every time externally. If you've moved from DocuSign to Box Sign to Dropbox Sign, externally say "e-sign" generically; internally, name the tool. Inconsistency externally reads as scattered process internally.
 
-When you tell a vendor *"go ahead and use your e-sign"*, append your full signer block — name, title, email, mailing address. The vendor's tool will ask for it; saving them the round-trip is one email's worth of relationship goodwill.
+When you tell a vendor *"go ahead and use your e-sign"*, append your full signer block: name, title, email, mailing address. The vendor's tool will ask for it; saving them the round-trip is one email's worth of relationship goodwill.
 
 ## Legal is "them" externally
 
