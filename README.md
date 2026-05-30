@@ -30,6 +30,7 @@ If your day involves answering the question *"what's the state of this vendor"* 
 | 10 | [Voice and Tone](chapters/10-voice-and-tone.md) | Direct, no emdashes, sign "Thanks, [name]", attach when referenced |
 | 11 | [Failure Mode Catalog](chapters/11-failure-mode-catalog.md) | The pain points that justify the rules |
 | 12 | [30-Day Adoption Guide](chapters/12-30-day-adoption-guide.md) | Week-by-week implementation plan for a new shop |
+| ❓ | [Common Questions](chapters/FAQ.md) | Honest answers to the natural objections (vs. SaaS, fit, ROI, Outlook, stack, failure modes) |
 
 ## How to use this
 
