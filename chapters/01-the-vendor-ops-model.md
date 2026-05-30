@@ -20,7 +20,7 @@ Nothing about the vendor's state lives only in your head. Everything is queryabl
 
 ## The brief is the daily artifact
 
-Once the vendor object exists, the daily question becomes: *what's the current state of vendor X?* The answer is the **brief** — a single rendered view that pulls together the configuration, the current open items, the recent thread activity, the tasks in flight, and a recommended next action. See [chapter 3](03-the-vendor-brief.md).
+Once the vendor object exists, the daily question becomes: *what's the current state of vendor X?* The answer is the **brief**: a single rendered view that pulls together the configuration, the current open items, the recent thread activity, the tasks in flight, and a recommended next action. See [chapter 3](03-the-vendor-brief.md).
 
 Briefs are cheap to render and expensive to read. You should be rendering them constantly and reading them only when you're about to act on the vendor.
 
@@ -32,7 +32,7 @@ A status field on its own gives you *Live / Paused / Dead*. That's necessary but
 - **In Negotiation:** active back-and-forth, no contract
 - **Signed Pre-Launch:** paper done, technical/onboarding work in flight
 - **Onboarding:** technical work in flight, vendor engaged
-- **Pre-Onboarding:** we kicked off our side, vendor hasn't responded — promote to Onboarding when they reply (don't fake the progress)
+- **Pre-Onboarding:** we kicked off our side, vendor hasn't responded; promote to Onboarding when they reply (don't fake the progress)
 - **Live:** active flow
 - **Paused:** flow stopped but relationship live (returns, capacity, seasonal)
 - **Dead:** door open, no flow, no active work
@@ -46,7 +46,7 @@ Two things:
 
 1. **Decisions become legible.** *"Should I send Vendor X an invoice?"* used to require remembering whether they're live, paused, returning, or behind on payment. Now you render the brief and the answer is there.
 
-2. **Work compounds.** Every email you read, every contract you forward, every payment you chase — all of it updates the vendor record. Tomorrow's brief is richer than today's because today's work fed it. Compare to the default mode where every email is a one-off and nothing accumulates.
+2. **Work compounds.** Every email you read, every contract you forward, every payment you chase: all of it updates the vendor record. Tomorrow's brief is richer than today's because today's work fed it. Compare to the default mode where every email is a one-off and nothing accumulates.
 
 ## What this requires
 

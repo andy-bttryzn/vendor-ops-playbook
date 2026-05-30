@@ -50,7 +50,7 @@ If your culture uses honorifics for senior internal recipients, use them. Extern
 
 ## No internal names externally
 
-Sister-company staff names, internal affiliate names, internal channel URLs, internal stage-direction comments — none of these appear in external comms. The exception is when the external party is being introduced to a specific named internal contact, in which case it's intentional.
+Sister-company staff names, internal affiliate names, internal channel URLs, internal stage-direction comments: none of these appear in external comms. The exception is when the external party is being introduced to a specific named internal contact, in which case it's intentional.
 
 ## No vendor abbreviations
 
@@ -77,6 +77,6 @@ Before any draft ships, scan for:
 1. **LLM tells:** em-dashes, *"in conclusion,"* *"furthermore,"* triple-clause sentences with the rhetorical *"not just X, but Y."*
 2. **Mojibake:** `â€"`, `â€™`, anything that decoded wrong upstream
 3. **Forbidden closings:** the list in [chapter 4](04-draft-validation.md)
-4. **Stale recipients:** the To/Cc/Bcc that came from a thread that's drifted in subject — does it still make sense?
+4. **Stale recipients:** the To/Cc/Bcc that came from a thread that's drifted in subject. Does it still make sense?
 
 This is the gate before send. Two seconds of scanning is much cheaper than one wrong send.

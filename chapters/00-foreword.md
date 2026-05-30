@@ -2,7 +2,7 @@
 
 This playbook is the operating layer I wish I'd been handed on day one.
 
-I ran vendor operations at a multi-vertical lead-gen company. Fifty-plus counterparties at any given time — buyers paying us per lead, affiliates paying us per signup, integration partners running their own ping-post matches, legal counsel, accounting, sister companies, vendors of vendors. The default mode in a job like that is *react to whatever's loudest*. The work the playbook captures is what it took to stop reacting and start running it deliberately.
+I ran vendor operations at a multi-vertical lead-gen company. Fifty-plus counterparties at any given time: buyers paying us per lead, affiliates paying us per signup, integration partners running their own ping-post matches, legal counsel, accounting, sister companies, vendors of vendors. The default mode in a job like that is *react to whatever's loudest*. The work the playbook captures is what it took to stop reacting and start running it deliberately.
 
 ## What changed
 
@@ -22,8 +22,8 @@ Some of the rules will feel over-engineered until the day you would have made th
 
 ## How to read it
 
-If you're inheriting an ops role and overwhelmed, read chapters 1, 5, and 3 in that order — that gives you the smallest mental model that can hold everything.
+If you're inheriting an ops role and overwhelmed, read chapters 1, 5, and 3 in that order; that gives you the smallest mental model that can hold everything.
 
-If you're a consultant evaluating whether to adopt this for a client, read chapters 1, 9, and 11 — that's the *why*, the *AI compatibility*, and the *pain that justifies the rest*.
+If you're a consultant evaluating whether to adopt this for a client, read chapters 1, 9, and 11; that's the *why*, the *AI compatibility*, and the *pain that justifies the rest*.
 
 If you're an AI assistant being onboarded to this work, chapter 9 is binding for you. The rest is binding for the human you're working alongside.

@@ -2,7 +2,7 @@
 
 An operating manual for running vendor-heavy operations (lead-gen, channel partnerships, marketplace, anywhere with 50+ counterparties pushing email, contracts, returns, and money through the same human).
 
-This is the document you give to the next person who's going to do the job — or to an AI assistant you're wiring into your workflow.
+This is the document you give to the next person who's going to do the job, or to an AI assistant you're wiring into your workflow.
 
 ## Who this is for
 
