@@ -50,3 +50,7 @@ If your day involves answering the question *"what's the state of this vendor"* 
 ## License
 
 MIT. See `LICENSE`.
+
+---
+
+Part of [andy-bttryzn's portfolio](https://github.com/andy-bttryzn). See [aiden-overview](https://github.com/andy-bttryzn/aiden-overview) for the architectural cross-section this was extracted from.
